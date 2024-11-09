@@ -28,3 +28,19 @@
         width: 190px;
     }
 }
+@media screen and (min-width: 425px){
+    #section-2-content-5{
+        display:flex;
+    }
+}
+@media screen and (min-width: 300px){
+    #section-2-sub-content-1{
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 425px){
+    #section-2-sub-content-1{
+        width: fit-content;
+        justify-self: center;
+    }
+}
