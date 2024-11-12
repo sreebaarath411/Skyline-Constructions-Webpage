@@ -8,6 +8,28 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#section-4-card:hover{
+    background-color: #C10023;
+    color: #ffffff;
+    transform: translate3D(0,-1px,0) scale(1.03);
+    #read-more{
+        color: #ffcc29;
+    }
+}
+#section-6-card:hover{
+    background-color: #C10023;
+    color: #ffffff;
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
+#section-7-card:hover{
+    background-color: #C10023;
+    color: #ffffff;
+    transform: translate3D(0,-1px,0) scale(1.03);
+    #hr1{
+        border-color: #ffcc29;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #navbar{
         align-items: center;
@@ -30,7 +52,7 @@
 }
 @media screen and (max-width: 425px){
     #section-1-content{
-        padding: 0px;
+        padding: 0;
     }
 }
 @media screen and (min-width: 426px){
@@ -73,4 +95,49 @@
     #section-3{
         display: flex;
     } 
+}
+@media screen and (max-width: 425px){
+    #section-4-content-2{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 426px){
+    #section-4-content-2{
+        padding: 48px;
+    }
+}
+@media screen and (max-width: 425px){
+    #section-5-content-2{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 426px){
+    #section-5-content-2{
+        padding: 48px;
+    }
+}
+@media screen and (max-width: 425px){
+    #section-6-content-2{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 426px){
+    #section-6-content-2{
+        padding: 48px;
+    }
+}
+@media screen and (max-width: 425px){
+    #section-7-content-1{
+        padding-inline: 48px;
+    }
+}
+@media screen and (max-width: 425px){
+    #section-7-content-2{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 426px){
+    #section-7-content-2{
+        padding: 48px;
+    }
 }
